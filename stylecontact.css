@@ -4,6 +4,12 @@ body {
     background: #e0fbfc;
   }
 
+.feature-title {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
 .navbar {
     background-color: #3d5a80;
 }
@@ -23,4 +29,11 @@ body {
 
 .nav-link:hover, .navbar-brand:hover {
     color: white;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 20px;
 }

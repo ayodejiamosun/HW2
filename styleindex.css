@@ -6,7 +6,7 @@ body {
 
 h2 {
     text-align: center;
-    padding: 25px;
+    padding: 15px;
 }
 
 img {
@@ -38,4 +38,6 @@ img {
 .container {
     width: 600px;
     margin: 0 auto;
+    background-color: white;
+    margin-top: 30px;
 }
