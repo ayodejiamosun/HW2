@@ -1,32 +1,79 @@
+/* Keep until finished */
 .wrapper > div {
     background: #eee;
     padding: 11em;
+    font-family: 'Permanent Marker', cursive;
 }
 .wrapper > div:nth-child(odd) {
     background: #ddd;
 }
+
+
+
+/* Overall bodies */
+
 .wrapper {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 1em;
 }
 body {
-    margin-right: 5em;
-    margin-left: 4em;
+    margin-right: 2em;
+    margin-left: 1em;
+    margin-bottom: 1em;
 
 }
 
 /* Navigation */
+
 .main-nav {
     text-align: center;
-    margin-bottom: 5em;
+    margin-bottom: 3.5em;
     margin-top: 2.5em;
 
 }
+.main-nav a:hover {
+    color: #39FF14;
+}
+/* .main-nav a:visited {
+    color: black;
+} */
 .main-nav ul {
     display: grid;
     grid-gap: 20px;
-    padding: 0px;
+    padding: 10px;
     list-style: none;
     grid-template-columns: repeat(5, 1fr);
+    /* grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr; */
+
+}
+/* .main-nav li {
+    display: clear;
+    vertical-align: middle;
+} */
+.main-nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    /* display: block;
+    vertical-align: middle; */
+}
+#yourbrand {
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Boxes */
+
+.box1 {
+    background:
+}
+.box2 {
+    background:
+}
+.box3 {
+    background:
+}
+.box4 {
+    background: 
 }
