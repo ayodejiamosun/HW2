@@ -54,6 +54,13 @@ p {
     font-size: 40px;
     font-family: 'Permanent Marker', cursive;
 }
+.grow2 { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.grow2:hover { 
+transform: scale(1.2); 
+}
 
 /* Boxes */
 
