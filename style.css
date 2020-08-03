@@ -1,11 +1,11 @@
 /* Keep until finished */
 .wrapper > div {
-    background: #eee;
+    /* background: #eee; */
     padding: 11em;
     font-family: 'Permanent Marker', cursive;
 }
 .wrapper > div:nth-child(odd) {
-    background: #ddd;
+    /* background: #ddd; */
 }
 
 
@@ -22,6 +22,9 @@ body {
     margin-left: 1em;
     margin-bottom: 1em;
 
+}
+p {
+    color: white;
 }
 
 /* Navigation */
@@ -66,14 +69,16 @@ body {
 /* Boxes */
 
 .box1 {
-    background:
+    /* background: #d90429; */
+    background: #ED1D24;
 }
 .box2 {
-    background:
+    background: #C4A8FF;
 }
 .box3 {
-    background:
+    background: #03ADE9;
+    
 }
 .box4 {
-    background: 
+    background: #FCE154;
 }
