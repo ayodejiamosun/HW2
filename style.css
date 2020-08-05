@@ -116,9 +116,10 @@ transform: scale(1.3);
 /* About Page */
 img {
     float: left;
-    height: 350px;
-    width: 350px;
+    height: 330px;
+    width: 330px;
     margin-right: 20px;
+    vertical-align: middle;
 }
 .wrapper2 {
     background: #B5EAD7;
@@ -126,6 +127,9 @@ img {
     width: 900px;
     padding: 25px;
     margin-top: 90px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 18px;
 }
 p {
     color: white;
@@ -145,4 +149,12 @@ p {
     padding-right: 45px;
     padding-left: 45px;
     
+}
+#abouttext {
+    /* display: block; */
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    vertical-align: middle;
 }
